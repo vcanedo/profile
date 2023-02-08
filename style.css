@@ -1,0 +1,118 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #CECAC3;
+  line-height: 1.6;
+  background-image: url('https://media3.giphy.com/media/xT9DPPFFbqar2olXQA/giphy.gif?cid=ecf05e47lj19rpnunoob867hcc40z2n3pteg2q0gbo7yc8ga&rid=giphy.gif&ct=g');
+  background-blend-mode: multiply;
+  background-size: 800px;
+  background-color: #161616;
+}
+
+h1, h2 {
+  color: #dcd7cf;
+  font-size: 20px;
+  opacity: 90%;
+}
+
+a {
+  color: #f0a500;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #5B52A3;
+  transition: 0.3s;
+}
+
+#btn-main {
+  color: #161616;
+  background-color: #f0a500;
+  padding: 15px 25px;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 15px;
+}
+
+#btn-main:hover {
+  color: #f0a500;
+  background-color: #5B52A3;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .5);
+}
+
+.fa-brands:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .5);
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-black {
+  background: #161616;
+  padding: 30px;
+  margin: 25px 0;
+  border-radius: 4px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .7);
+}
+
+.gif {
+  opacity: 80%;
+  width: 207px;
+}
+
+ul {
+  text-decoration: none;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px;
+}
+
+.img {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+}
+
+.img:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .7);
+  transition: 0.3s;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.icon {
+font-size: 50px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
